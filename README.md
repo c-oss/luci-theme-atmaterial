@@ -1,5 +1,5 @@
 # luci-theme-atmaterial
-Advanced Tomato Material Theme for OpenWrt
+ATMaterial Theme for OpenWrt/LEDE
 
 # Screenshot
-![image](https://raw.githubusercontent.com/SDNGer/luci-theme-atmaterial/master/screenshot/20190818145642.png)
+![image](https://github.com/C-oss/luci-theme-atmaterial/blob/master/screenshot/PC-1.png)
