@@ -201,7 +201,7 @@ header {
     height: 60px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); */
     /* transition: box-shadow .2s; */
-    border: 1px dashed #C0C0C0;
+    border-bottom: 1px dashed #C0C0C0;
     float: left;
     position: fixed;
     z-index: 2000;
@@ -330,7 +330,6 @@ header > .container > .brand {
     float:left;
     font-weight:600;
     letter-spacing:3px;
-    border-right: 1px dashed #FFF;
 }
 header > .container > a[class="brand"]:after {
     content:"®";
