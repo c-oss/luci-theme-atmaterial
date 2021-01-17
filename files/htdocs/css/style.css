@@ -1676,6 +1676,10 @@ header > .container > .pull-right > * {
     text-transform: uppercase;
 }
 
+.node-main-login > .main .cbi-input-password {
+    margin: 15px auto 0;
+}
+
 .node-main-login footer {
     bottom: 0;
     position: absolute;
