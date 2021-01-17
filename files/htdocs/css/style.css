@@ -1,4 +1,4 @@
-﻿/**
+/**
  *  Material is a clean HTML5 theme for LuCI. It is based on luci-theme-bootstrap and MUI
  *
  *  luci-theme-material
@@ -199,9 +199,8 @@ header, .main {
 
 header {
     height: 60px;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); */
-    /* transition: box-shadow .2s; */
-    border-bottom: 1px dashed #C0C0C0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    transition: box-shadow .2s;
     float: left;
     position: fixed;
     z-index: 2000;
@@ -307,7 +306,7 @@ footer > a {
 }
 
 header {
-    background: #FFF;
+    background: #fff;
     color: white;
 }
 
@@ -424,7 +423,7 @@ header > .container > a[class="brand"]:after {
 }
 
 .main > .main-left > .nav > li a {
-    color: #DDD;
+    color: #969ba0;
     display: block;
 }
 
@@ -477,53 +476,38 @@ header > .container > a[class="brand"]:after {
 
 .main > .main-left > .nav > .slide > a[data-title="Status"]:before {
     content: "\e026";
-   color: #5e72e4!important;
-  
 }
 
 .main > .main-left > .nav > .slide > a[data-title="System"]:before {
     content: "\e00a";
-color: #fb6340!important;
 }
 
 .main > .main-left > .nav > .slide > a[data-title="Network"]:before {
     content: "\e00e";
-color: #8965e0!important;
 }
 .main > .main-left > .nav > .slide > a[data-title="VPN"]:before {
     content: "\e029";
- color: #5F9EA0!important;
 }
 
 .main > .main-left > .nav > .slide > a[data-title="Services"]:before {
     content: "\e01b";
- color: #11cdef!important;
 }
 
 .main > .main-left > .nav > .slide > a[data-title="NAS"]:before {
     content: "\e00b";
-   color: #f3a4b5!important;
 }
 
 .main > .main-left > .nav > .slide > a[data-title="Control"]:before {
-    content: "\e021";
-  color: #FFD700!important;
-}
-.main > .main-left > .nav > .slide > a[data-title="Statistics"]:before {
     content: "\e023";
-  color: #1E90FF!important;
 }
-
 
 .main > .main-left > .nav > .slide > a[data-title="Bandwidth Monitor"]:before {
     content: "\e00f";
-color: #2dce89!important;
 }
 
 .main > .main-left > .nav > li > a[data-title="Logout"] {
     padding-left:36px;
     line-height:40px;
- color: #9400D3!important;
 }
 .main > .main-left > .nav > li > a[data-title="Logout"]:before {
     content: "\e005";
@@ -614,7 +598,7 @@ color: #2dce89!important;
 .main > .main-left > .nav > .slide > .slide-menu > li > a {
     position: relative;
     display: block;
-    color: #BBB;
+    color: #969ba0;
     text-shadow: 0px 1px 3px #222;
     vertical-align: middle;
 }
@@ -658,12 +642,10 @@ h1 {
 }
 
 h2 {
-    /* margin: 15px 0 0 0;
+    margin: 15px 0 0 0;
     font-size: 16px;
     padding-bottom: 10px;
-    padding-left: 5px; */
-
-    font-size: 0;
+    padding-left: 5px;
 }
 
 h3 {
@@ -1004,7 +986,7 @@ form.inline + form.inline,
     vertical-align: middle;
     display: inline-block;
     width: 100%;
-    /* border-top:1px dashed #e4eaec; */
+    border-top:1px dashed #e4eaec;
 }
 
 .cbi-section-table-descr > .cbi-section-table-cell,
@@ -1028,9 +1010,9 @@ form.inline + form.inline,
 /* desc */
 .cbi-section-descr,
 .cbi-map-descr {
-    /* margin-bottom:10px;
-    padding-left:5px; */
-    font-size: 0;
+    margin-bottom:10px;
+    padding-left:5px;
+    font-size: small;
 }
 
 
@@ -1622,9 +1604,7 @@ header > .container > .pull-right > * {
 }
 
 .node-main-login > .main .cbi-value-title {
-    font-size: 0;
-    width: 0;
-    padding: 0;
+    width: 7rem;
 }
 
 .node-main-login > .main #maincontent {
@@ -1635,10 +1615,9 @@ header > .container > .pull-right > * {
 .node-main-login > .main .container {
     display: inline-block;
     padding: 2rem 4rem;
-    margin-top: 6rem !important;
+    margin-top: 2rem !important;
     background-color: #FFF;
-    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12); */
-    border: 1px dashed #CCC;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
     text-align: left;
 }
 
@@ -1654,20 +1633,9 @@ header > .container > .pull-right > * {
     display: inline-block !important;
 }
 
-.node-main-login > .main .cbi-input-user {
-    text-transform: uppercase;
-}
-
 .node-main-login > .main .cbi-input-user,
 .node-main-login > .main .cbi-input-password {
     min-width: 15rem;
-    height: 32px;
-    background: none;
-    border: 1px dashed #CCC;
-    border-radius: 100px;
-    text-align: center;
-    padding: 2px 10px;
-    font-size: 14px;
 }
 
 .node-main-login footer {
@@ -2022,14 +1990,6 @@ body.lang_pl.node-main-login .cbi-value-title {
         margin-top: 2rem;
     }
 
-    .node-main-login > .main form > div > .cbi-button {
-        width: 100px !important;
-        height: 32px;
-        line-height: normal;
-        border-radius: 100px;
-        font-size: 14px;
-    }
-
     .node-main-login > .main .cbi-value-title {
         width: 100% !important;
         font-size: 1.2rem;
@@ -2038,7 +1998,6 @@ body.lang_pl.node-main-login .cbi-value-title {
     .node-main-login > .main fieldset {
         margin: 0;
         padding: 0.5rem;
-        margin-bottom: .5rem;
     }
 
     body {
