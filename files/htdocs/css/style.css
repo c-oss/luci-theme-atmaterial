@@ -1669,6 +1669,7 @@ header > .container > .pull-right > * {
     font-size: 14px;
     padding: 2px 10px 0;
     color: #0099CC;
+    caret-color: gray;
 }
 
 .node-main-login > .main .cbi-input-user {
