@@ -199,8 +199,9 @@ header, .main {
 
 header {
     height: 60px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-    transition: box-shadow .2s;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    transition: box-shadow .2s; */
+    border-bottom: 1px dashed #C0C0C0;
     float: left;
     position: fixed;
     z-index: 2000;
@@ -1604,7 +1605,11 @@ header > .container > .pull-right > * {
 }
 
 .node-main-login > .main .cbi-value-title {
-    width: 7rem;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .node-main-login > .main #maincontent {
@@ -1615,18 +1620,39 @@ header > .container > .pull-right > * {
 .node-main-login > .main .container {
     display: inline-block;
     padding: 2rem 4rem;
-    margin-top: 2rem !important;
+    margin-top: 6rem !important;
     background-color: #FFF;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
+    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12); */
     text-align: left;
+    border: 1px dashed #0099CC;
+}
+
+.node-main-login > .main .container h2,
+.node-main-login > .main .container .cbi-map-descr {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
 }
 
 .node-main-login > .main form > div:nth-last-child(1) {
-    float: right;
+    /* float: right; */
+    text-align: center;
+}
+
+.node-main-login > .main .cbi-button {
+    width: 110px !important;
+    background: #FAFAFA !important;
+    border: 1px dashed #0099CC;
+    border-radius: 50px;
+    color: #0099CC !important;
+    line-height: normal;
 }
 
 .node-main-login > .main .cbi-value {
     display: block;
+    border: none;
 }
 
 .node-main-login > .main .cbi-value > * {
@@ -1635,7 +1661,18 @@ header > .container > .pull-right > * {
 
 .node-main-login > .main .cbi-input-user,
 .node-main-login > .main .cbi-input-password {
-    min-width: 15rem;
+    min-width: 17rem;
+    background: none;
+    border: 1px dashed #0099CC;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    padding: 2px 10px 0;
+    color: #0099CC;
+}
+
+.node-main-login > .main .cbi-input-user {
+    text-transform: uppercase;
 }
 
 .node-main-login footer {
