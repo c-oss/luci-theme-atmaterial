@@ -1627,6 +1627,22 @@ header > .container > .pull-right > * {
     border: 1px dashed #0099CC;
 }
 
+.node-main-login > .main #maincontent form {
+    text-align: center;
+}
+
+.node-main-login > .main .container .errorbox {
+    background: none;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+    color: red;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    min-width: 20rem;
+}
+
 .node-main-login > .main .container h2,
 .node-main-login > .main .container .cbi-map-descr {
     font-size: 0;
